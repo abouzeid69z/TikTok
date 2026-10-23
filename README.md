@@ -50,6 +50,15 @@ performance.
 |---|---|
 | ![Held-out test confusion matrix](reports/figures/confusion_matrix.png) | ![Top random forest features](reports/figures/feature_importance.png) |
 
+## Project highlight cards
+
+Full-resolution summary graphics are available for presentations and portfolio
+posts:
+
+1. [Project overview](assets/project-highlights/01_project_overview.png)
+2. [Key findings](assets/project-highlights/02_key_findings.png)
+3. [Model results](assets/project-highlights/03_model_results.png)
+
 ## Analytical approach
 
 The work follows the PACE framework used in the certificate:
@@ -70,6 +79,8 @@ split, which keeps validation and test results independent of model fitting.
 
 ```text
 .
+├── assets/
+│   └── project-highlights/              # shareable project summary cards
 ├── data/
 │   └── tiktok_dataset.csv
 ├── notebooks/
