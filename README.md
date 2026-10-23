@@ -50,9 +50,6 @@ performance.
 |---|---|
 | ![Held-out test confusion matrix](reports/figures/confusion_matrix.png) | ![Top random forest features](reports/figures/feature_importance.png) |
 
-Three square, 1080 × 1080 images prepared for a LinkedIn carousel are available
-in [`reports/linkedin/`](reports/linkedin/).
-
 ## Analytical approach
 
 The work follows the PACE framework used in the certificate:
@@ -80,7 +77,6 @@ split, which keeps validation and test results independent of model fitting.
 │   └── coursework/                      # original five-stage learning path
 ├── reports/
 │   ├── figures/                         # generated portfolio visuals
-│   ├── linkedin/                        # LinkedIn-ready carousel images
 │   └── metrics.json                     # machine-readable results
 ├── src/
 │   └── analysis.py                      # reproducible training pipeline
