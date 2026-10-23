@@ -1,0 +1,73 @@
+{
+  "data": {
+    "raw_rows": 19382,
+    "modeling_rows": 19084,
+    "claim_share": 0.5034583944665688
+  },
+  "verification_t_test": {
+    "verified_mean_views": 91439.16416666667,
+    "not_verified_mean_views": 265663.78533885034,
+    "t_statistic": -25.499441780633777,
+    "p_value": 2.6088823687177503e-120
+  },
+  "validation_metrics": {
+    "dummy": {
+      "accuracy": 0.5035368090123133,
+      "precision": 0.5035368090123133,
+      "recall": 1.0,
+      "f1": 0.669803101585642
+    },
+    "logistic_regression": {
+      "accuracy": 0.978517160073356,
+      "precision": 0.999457111834962,
+      "recall": 0.9578563995837669,
+      "f1": 0.9782146652497343
+    },
+    "random_forest": {
+      "accuracy": 0.9955462405030129,
+      "precision": 1.0,
+      "recall": 0.9911550468262227,
+      "f1": 0.9955578782336033
+    },
+    "xgboost": {
+      "accuracy": 0.994760282944721,
+      "precision": 0.9984276729559748,
+      "recall": 0.9911550468262227,
+      "f1": 0.9947780678851175
+    }
+  },
+  "champion_model": "random_forest",
+  "test_metrics": {
+    "accuracy": 0.9958082263557768,
+    "precision": 1.0,
+    "recall": 0.9916710046850599,
+    "f1": 0.9958180867746994
+  },
+  "test_classification_report": {
+    "opinion": {
+      "precision": 0.9916317991631799,
+      "recall": 1.0,
+      "f1-score": 0.9957983193277311,
+      "support": 1896.0
+    },
+    "claim": {
+      "precision": 1.0,
+      "recall": 0.9916710046850599,
+      "f1-score": 0.9958180867746994,
+      "support": 1921.0
+    },
+    "accuracy": 0.9958082263557768,
+    "macro avg": {
+      "precision": 0.99581589958159,
+      "recall": 0.9958355023425299,
+      "f1-score": 0.9958082030512152,
+      "support": 3817.0
+    },
+    "weighted avg": {
+      "precision": 0.995843303959494,
+      "recall": 0.9958082263557768,
+      "f1-score": 0.9958082677861084,
+      "support": 3817.0
+    }
+  }
+}
